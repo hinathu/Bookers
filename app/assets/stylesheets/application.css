@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ /*index*/
+ body {
+     font-family: verdana, arial, helvetica, sans-serif;
+     font-size: 13px;
+     line-height: 18px;
+     margin: 33px;
+ }
+
+.index-title {
+    display: block;
+    font-size: 20px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+table tr td:nth-child(1) {
+    width: 190px;
+}
+
+table tr td:nth-child(2) {
+    width: 400px;
+}
+
+table tr td:nth-child(3) {
+    width: 150px;
+}
+
+table td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.index-t-title, .index-t-body {
+    padding: 1px, 5px, 7px, 5px;
+}
